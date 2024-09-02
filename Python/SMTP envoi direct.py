@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-smtp_server = 'smtp.office365.com'#'moulindechampcors-fr.mail.protection.outlook.com'  #
+smtp_server = 'smtp.office365.com'
 smtp_port = 587
-from_email = 'connecs@moulindechampcors.fr'  
-to_email = 'test@moulindechampcors.fr'  
+from_email = 'adresse@mail.soure'  
+to_email = 'adresse@mail.soure'  
 
 
 msg = MIMEMultipart()
