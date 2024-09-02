@@ -1,0 +1,1 @@
+Ce script va supprimer UNIQUEMENT les utilisateurs de la liste "users.txt", soit tous les utilisateurs de la MFR Mortain. 
