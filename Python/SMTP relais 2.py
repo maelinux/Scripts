@@ -3,15 +3,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_email():
-    smtp_server = "smtp.gmail.com"#'cgroupe-bzh.mail.protection.outlook.com' #
+    smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_username = "numerisation.groupebam@gmail.com"# "connecs@cgroupe.bzh" #
-    smtp_password = "elbsmjsgqdngatii"#"Rog23651"#
+    smtp_username = "adresse@mail.soure"
+    smtp_password = "MDP APPLICATION"
     
-    from_email = "numerisation.groupebam@gmail.com"# "connecs@cgroupe.bzh" #
-    to_email = "support@connecs-informatique.fr"
+    from_email = "adresse@mail.soure"
+    to_email = "adresse@mail.dest"
     subject = "Test de relais SMTP"
-    body = "etttt"
+    body = "testtt"
 
     msg = MIMEMultipart()
     msg['From'] = from_email
