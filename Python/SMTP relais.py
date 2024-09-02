@@ -5,9 +5,9 @@ def send_test_email():
 
     smtp_server = 'smtp.office365.com'
     smtp_port = 25
-    from_email = 'test@cgroupe.bzh'  
-    to_email = 'support@connecs-informatique.fr'  
-    username = 'test@cgroupe.bzh'  
+    from_email = 'adresse@mail.soure'  
+    to_email = 'adresse@mail.dest'  
+    username = 'adresse@mail.soure'  
     password = 'MDP'  
     subject = 'Test envoi SMTP'
     body = 'test'
