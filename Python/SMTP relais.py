@@ -8,7 +8,7 @@ def send_test_email():
     from_email = 'test@cgroupe.bzh'  
     to_email = 'support@connecs-informatique.fr'  
     username = 'test@cgroupe.bzh'  
-    password = 'Connecs@3322'  
+    password = 'MDP'  
     subject = 'Test envoi SMTP'
     body = 'test'
 
