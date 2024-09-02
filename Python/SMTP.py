@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 # Configuration du serveur SMTP
 smtp_server = "smtp.gmail.com" #"smtp.office365.com"
 smtp_port = 465
-from_address = "numerisation.groupebam@gmail.com"
-to_address = "support@connecs-informatique.fr"
+from_address = "adresse@mail.soure"
+to_address = "adresse@mail.dest"
 
 # Création du message
 msg = MIMEText("test envoi direct + TLS")
